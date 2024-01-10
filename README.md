@@ -18,4 +18,5 @@ And:
 More Information:
 1. [README](https://github.com/JesseHoekema/ascii-os/main/README.md)
 2. [Wiki](https://github.com/JesseHoekema/ascii-os/wiki)
+3. Help Center In The Os
 
