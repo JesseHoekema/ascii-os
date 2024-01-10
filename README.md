@@ -1,4 +1,5 @@
-# this is an beta!!
+# this is an beta!! V1.0 
+updates Weekly Or Monthly 
 ## how to run it
 
 Step 1: Open A Terminal
@@ -12,6 +13,6 @@ Step 4: Enjoy
 And: 
 1. If There Is A Bug Send It In The Issues Tab
 2. Type Close To Close The App
-3. For More Info, Tips And Tricks Go To The Help Center In The Os
+3. For More Info, Tips And Tricks Go To The Help Center In The Os Or Go To The Wiki
 
 
