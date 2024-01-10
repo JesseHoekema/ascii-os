@@ -9,5 +9,9 @@ Step 3: Login Using The Password: `password`
 
 Step 4: Enjoy
 
-And: If There Is A Bug Send It In The Issues Tab
+And: 
+1. If There Is A Bug Send It In The Issues Tab
+2. Type Close To Close The App
+3. For More Info, Tips And Tricks Go To The Help Center In The Os
+
 
