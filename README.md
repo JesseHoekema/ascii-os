@@ -15,4 +15,7 @@ And:
 2. Type Close To Close The App
 3. For More Info, Tips And Tricks Go To The Help Center In The Os Or Go To The Wiki
 
+More Information:
+1. [README](https://github.com/JesseHoekema/ascii-os/main/README.md)
+2. [Wiki](https://github.com/JesseHoekema/ascii-os/wiki)
 
