@@ -1,5 +1,5 @@
 # this is an beta!! V1.0 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Updates+Weekly+Or+Monthly;This+Is+A+Simple+Os;A+Os+For+Your+Terminal)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Updates+Weekly+Or+Monthly;This+Is+A+Simple+Os;A+Os+For+Your+Terminal)](jessehoekema.com/text/github/1)
 ## how to run it
 
 Step 1: Open A Terminal
