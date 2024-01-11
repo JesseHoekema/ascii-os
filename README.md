@@ -1,5 +1,5 @@
 # this is an beta!! V1.0 
-updates Weekly Or Monthly 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Updates+Weekly+Or+Monthly;This+Is+A+Simple+Os;A+Os+For+Your+Terminal)](https://git.io/typing-svg)
 ## how to run it
 
 Step 1: Open A Terminal
