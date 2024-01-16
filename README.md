@@ -1,5 +1,6 @@
 # BETA V1.0 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Updates+Weekly+Or+Monthly;This+Is+A+Simple+Os;A+Os+For+Your+Terminal)](/README.md)
+
 ## how to run it
 
 ### Macos
@@ -14,7 +15,7 @@ Step 4: Enjoy
 
 ### Windows
 
-Note: this is not working properly we are fixing the bugs
+> Note: this is not working properly we are fixing the bugs
 
 Step 1: Open A Terminal
 
