@@ -7,7 +7,7 @@
 
 Step 1: Open A Terminal
 
-Step 2: Run This: `bash <(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/setip.sh)` In The Terminal
+Step 2: Run This: `bash <(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/setup.sh)` In The Terminal
 
 Step 3: Setup the os
 
