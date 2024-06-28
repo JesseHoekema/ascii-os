@@ -27,7 +27,7 @@ while true; do
 |       |       |   |_| |   | | |   |
 |_______|_______|_______|___|_|  |__|"
     echo "     "
-    echo "Type 'password' and press Enter:"
+    echo "Type Your Password and press Enter:"
     read userInput
     if [ "$userInput" == "$password" ]; then
         clear
