@@ -1,4 +1,4 @@
-# BETA V1.0 
+# V1.1
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Updates+Weekly+Or+Monthly;This+Is+A+Simple+Os;A+Os+For+Your+Terminal)](/README.md)
 
 ## how to run it
@@ -7,23 +7,15 @@
 
 Step 1: Open A Terminal
 
-Step 2: Run This: `bash <(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/os.sh)` In The Terminal
+Step 2: Run This: `bash <(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/setip.sh)` In The Terminal
 
-Step 3: Login Using The Password: `password`
+Step 3: Setup the os
 
-Step 4: Enjoy
+Step 4: And Now Enjoy
 
 ### Windows
 
-> Note: this is not working properly we are fixing the bugs
-
-Step 1: Open A Terminal
-
-Step 2: Run This: `bash -c "$(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/os.bat)"` In The Terminal
-
-Step 3: Login Using The Password: `password`
-
-Step 4: Enjoy
+Not Avalible at the moment
 
 And: 
 1. If There Is A Bug Send It In The Issues Tab
