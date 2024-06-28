@@ -18,14 +18,12 @@ USERINFO_FILE="userinfo.txt"
 
 # Controleren of userinfo.txt al bestaat
 if [ -f "$USERINFO_FILE" ]; then
-    echo "User information file already exists. Running specific command..."
-    # Voer het specifieke commando uit als het bestand al bestaat
     bash <(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/os.sh)
 else
-    echo "Welcome to AsciiOs!"
+    echo "Welcome to AsciiOs! Lets setup: "
 
     # Vraag om het wachtwoord
-    echo "Enter the password (default password is 'password'): "
+    echo "Enter The Password You Want: "
     read -s password_input  # -s voor stille invoer (geen echo naar terminal)
     password=${password_input:-password}  # Standaardwachtwoord 'password' instellen als geen input
 
@@ -37,5 +35,6 @@ else
     echo "Username: $username" > "$USERINFO_FILE"
     echo "Password: $password" >> "$USERINFO_FILE"
 
-    echo "User information saved in userinfo.txt."
+    echo "Setup Done!"
+    bash <(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/os.sh)
 fi
