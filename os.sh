@@ -1,3 +1,16 @@
+USERINFO_FILE="userinfo.txt"
+
+# Controleren of userinfo.txt bestaat
+if [ -f "$USERINFO_FILE" ]; then
+    # Haal wachtwoord en gebruikersnaam op uit userinfo.txt
+    password=$(grep "^Password:" "$USERINFO_FILE" | cut -d' ' -f2)
+    username=$(grep "^Username:" "$USERINFO_FILE" | cut -d' ' -f2)
+
+    # Toon de opgehaalde informatie $password $username
+else
+    bash <(curl -s https://raw.githubusercontent.com/JesseHoekema/ascii-os/main/new.sh)
+    exit 1
+fi
 #!/bin/bash
 echo -ne "\033]0;AsciiOs\a"
 
@@ -16,7 +29,7 @@ while true; do
     echo "     "
     echo "Type 'password' and press Enter:"
     read userInput
-    if [ "$userInput" == "password" ]; then
+    if [ "$userInput" == "$password" ]; then
         clear
         echo ".----------------------------------.
 |     _             _ _  ___       |
@@ -37,7 +50,7 @@ while true; do
 |  / ___ \\__ \ (__| | | |_| \__ \ |
 | /_/   \_\___/\___|_|_|\___/|___/ |
 '----------------------------------'"
-        echo "Hello User! And Welcome To AsciiOs Its $formatted_date"
+        echo "Hello $username! And Welcome To AsciiOs Its $formatted_date"
             # Menu
             echo "+--------------------------+"
             echo "| Choose A App:            |"
